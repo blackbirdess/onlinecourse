@@ -1,0 +1,93 @@
+/* Обнуляющий стиль */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body,
+html {
+	height: 100%;
+	line-height: 1;
+}
+
+/* ================================================================ */
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	padding-left: 40px;
+}
+.header__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin: 40px 0 40px 0;
+}
+
+.get__img {
+	width: 810px;
+}
+
+.block-text {
+	margin-top: 40px;
+	width: 810px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+
+.text {
+	width: 810px;
+	margin-bottom: 24px;
+}
+
+.text-comment {
+	margin-top: 40px;
+	width: 750px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 24px;
+	padding-left: 50px;
+}
+.text-list {
+	padding-left: 40px;
+	margin-bottom: 24px;
+}
+
+.text-list li {
+	line-height: 1.625;
+}
